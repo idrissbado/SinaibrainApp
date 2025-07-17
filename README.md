@@ -341,7 +341,7 @@ npm run test:e2e
 ### Contact
 - **Email**: support@sinaibrainstock.com
 - **Website**: https://sinaibrainstock.com
-- **GitHub**: https://github.com/sinaibrainstock/platform
+- **GitHub**: https://github.com/idrissbado/SinaibrainApp
 
 ## 📄 License
 

@@ -258,19 +258,23 @@ npm start
 ## 🛠️ Development
 
 ### Code Structure
-\`\`\`
+.
 ├── app/                    # Next.js app directory
-│   ├── api/               # API routes
-│   ├── auth/              # Authentication pages
-│   ├── dashboard/         # Dashboard pages
-│   └── globals.css        # Global styles
-├── components/            # React components
-│   ├── ui/               # shadcn/ui components
-│   └── [feature]/        # Feature-specific components
-├── lib/                  # Utility libraries
-├── scripts/              # Database scripts
-└── public/               # Static assets
-\`\`\`
+│   ├── api/                # API routes (REST or handlers)
+│   ├── auth/               # Authentication-related pages (e.g., login, register)
+│   ├── dashboard/          # Dashboard views (real-time stock data, metrics)
+│   └── globals.css         # Global styles
+│
+├── components/             # Reusable React components
+│   ├── ui/                 # UI components (from shadcn/ui or custom)
+│   └── [feature]/          # Feature-specific components (e.g., chatbot, charts)
+│
+├── lib/                    # Utility libraries and helper functions
+│
+├── scripts/                # Database and data pipeline scripts (e.g., seeders)
+│
+└── public/                 # Static assets (images, favicons, manifest, etc.)
+
 
 ### Key Components
 - **StockChart**: Advanced charting with technical indicators

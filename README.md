@@ -258,6 +258,7 @@ npm start
 ## 🛠️ Development
 
 ### Code Structure
+```text
 .
 ├── app/                    # Next.js app directory
 │   ├── api/                # API routes (REST or handlers)
@@ -274,7 +275,7 @@ npm start
 ├── scripts/                # Database and data pipeline scripts (e.g., seeders)
 │
 └── public/                 # Static assets (images, favicons, manifest, etc.)
-
+```
 
 ### Key Components
 - **StockChart**: Advanced charting with technical indicators
